@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "Name": "Birla House",
+    "Type": "House",
+    "Price": "120,000"
+  },
+  {
+    "Id": 2,
+    "Name": "Erose Villa",
+    "Type": "House",
+    "Price": "140,000"
+  },
+  {
+    "Id": 3,
+    "Name": "Macro Home",
+    "Type": "House",
+    "Price": "220,000"
+  }
+]
