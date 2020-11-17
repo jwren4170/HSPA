@@ -1,17 +1,19 @@
-// Modules
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
-
+import { AddPropertyComponent } from './property/add-property/add-property.component';
+import { AppComponent } from './app.component';
 // Components
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { PropertyListComponent } from './property/property-list/property-list.component';
-import { PropertyCardComponent } from './property/property-card/property-card.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-
+// Modules
+import { BrowserModule } from '@angular/platform-browser';
+import { BuyPropertyComponent } from './property/buy-property/buy-property.component';
 // Services
 import { HousingService } from './services/housing.service';
+import { HttpClientModule } from '@angular/common/http';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NgModule } from '@angular/core';
+import { PropertyCardComponent } from './property/property-card/property-card.component';
+import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
+import { PropertyListComponent } from './property/property-list/property-list.component';
+import { RentPropertyComponent } from './property/rent-property/rent-property.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,10 @@ import { HousingService } from './services/housing.service';
     PropertyListComponent,
     PropertyCardComponent,
     NavBarComponent,
+    AddPropertyComponent,
+    BuyPropertyComponent,
+    RentPropertyComponent,
+    PropertyDetailComponent,
   ],
   imports: [
     //
